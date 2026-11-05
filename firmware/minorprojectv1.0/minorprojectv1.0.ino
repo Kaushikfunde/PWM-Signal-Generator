@@ -3,8 +3,8 @@
 #include <Wire.h>
 
 // --- Hardware Pin Definitions ---
-const int freqPin = 34;  // 2.97V Stepped-down frequency input from voltage divider
-const int rangePin = 27; // Range sense pin (High = Range A, Low = Range B)
+const int freqPin = 34;  // Conditioned NE555 output (rev A: 330R series + 10k load)
+const int rangePin = 27; // Range sense (not routed on rev A; reads HIGH via pull-up)
 
 // --- OLED Configuration ---
 // SH1106 128x64 using hardware I2C (SDA = GPIO21, SCL = GPIO22)
