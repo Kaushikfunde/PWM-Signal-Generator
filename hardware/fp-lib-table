@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "DPDTswitch") (type "KiCad") (uri "${KIPRJMOD}/DPDTswitch.pretty") (options "") (descr "Custom switch footprint used on the PWM generator board"))
+)

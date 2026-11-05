@@ -1,0 +1,18 @@
+# KiCad local/user files
+*.kicad_prl
+*.kicad_prl.lock
+*-backups/
+_restore_backup_*/
+*.bak
+
+# Editor and OS files
+.history/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+*.zip
