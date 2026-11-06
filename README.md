@@ -2,6 +2,8 @@
 
 **A dual-range NE555 PWM generator paired with an ESP32 frequency counter, built on a custom single-sided KiCad PCB.**
 
+**Case study:** [PWM Signal Generator & Analyzer](https://kaushikfunde.vercel.app/#/work/pwm-analyzer)
+
 ![PCB render](images/pcb-render.png)
 
 ## Overview
@@ -154,6 +156,12 @@ These are the known gaps in the current prototype, documented for the next board
 - **Range sense.** GPIO27 is reserved for range detection, but it is not routed on the current PCB. The firmware's internal pull-up therefore reports Range A. The next revision should wire the second pole of the selector switch to GPIO27.
 - **Measurement.** The current firmware measures frequency only. Duty-cycle and period measurement via CHANGE-edge interrupts are the next firmware step.
 - **Validation.** Complete assembly and run the test plan: power-on, range switching, frequency tuning, divider voltage, no-signal handling, external output, and sustained stability.
+
+## Author
+
+Built by **Kaushik Funde** — electronics engineering student at G. H. Raisoni College of Engineering, Nagpur.
+
+[Portfolio](https://kaushikfunde.vercel.app/) · [GitHub](https://github.com/Kaushikfunde) · [LinkedIn](https://www.linkedin.com/in/kaushik-funde-239925373/)
 
 ## License
 
